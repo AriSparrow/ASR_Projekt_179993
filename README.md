@@ -21,6 +21,7 @@ Wdrożenie kompletnego stosu technologicznego oraz konfiguracja operacyjna reali
 2. **Architektura Multi-Region (Obejście ograniczeń):** Praktyczne wdrożenie infrastruktury rozproszonej w różnych regionach geograficznych (baza danych w Szwecji, środowisko kontenerowe w Niemczech) w celu ominięcia rygorystycznych limitów i braku alokacji darmowych zasobów narzucanych na subskrypcje edukacyjne (Azure for Students).
 3. **Idempotentność środowiska:** Zagwarantowanie, że wielokrotne uruchomienie kodu nie stworzy duplikatów infrastruktury, a jedynie wyrówna stan faktyczny chmury z zadeklarowanym kodem źródłowym.
 4. **Zarządzanie ograniczeniami (Troubleshooting) i obsługa błędów:** Praktyczna diagnoza problemów z uprawnieniami podczas próby implementacji użytkowników w środowisku edukacyjnym. Zamiast usuwać kod, zastosowano inżynierską praktykę "commenting out", co dokumentuje architekturę IAM i przygotowuje projekt do łatwej migracji na płatną subskrypcję. Z sukcesem wdrożono za to warstwę kontenerową, udowadniając działanie całego zautomatyzowanego potoku.
+5. **Wdrażanie standardów DevOps:** Zastosowanie profesjonalnego cyklu życia oprogramowania infrastrukturalnego poprzez zamrożenie stabilnego kodu, odizolowanie artefaktów lokalnych chmury i publikację czystego szablonu w systemie kontroli wersji.
 
 
 ##  Technologie
